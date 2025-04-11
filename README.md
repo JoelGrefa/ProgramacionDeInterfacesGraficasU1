@@ -1,61 +1,82 @@
-# ProgramacionDeInterfacesGraficasU1
+🌟 Gestión de Contactos - Aplicación en Java 🌟
+🚀 Descripción
+Bienvenido a la Gestión de Contactos, una aplicación en Java diseñada para gestionar la información de tus contactos de forma sencilla y eficiente. Gracias al patrón MVC (Modelo-Vista-Controlador), esta aplicación organiza perfectamente el código, lo que te permite agregar, editar, eliminar y visualizar contactos, ¡todo desde una interfaz gráfica intuitiva!
 
-La aplicación de Gestión de Contactos permite gestionar información de contactos, como nombre, teléfono, email, categoría y si es un contacto favorito. Utiliza el patrón MVC (Modelo-Vista-Controlador) para organizar el código de manera eficiente. La aplicación permite añadir, editar, eliminar y visualizar contactos, además de exportarlos a un archivo CSV.
+Además, la aplicación te permite exportar tus contactos a un archivo CSV para tener un respaldo de tus datos y usarlos donde los necesites.
 
-Características
-Patrón MVC: Organiza el código en tres paquetes: Modelo, Vista, y Controlador.
+🔥 Características principales:
+📊 Interfaz Gráfica: Usando Java Swing, incluye JTable, JTabbedPane, y barra de progreso para una experiencia de usuario fluida.
 
-Interfaz gráfica: Construida con Java Swing, incluye componentes como JTable, JTabbedPane y barra de progreso.
+💾 Persistencia de datos: Guarda los contactos en un archivo CSV en tu sistema local.
 
-Persistencia de datos: Los contactos se guardan en un archivo CSV en el sistema de archivos.
+🗂 Gestión Completa de Contactos: Añadir, editar, eliminar, y visualizar contactos.
 
-Funcionalidades: Añadir, editar, eliminar y visualizar contactos. También permite exportar los datos a un archivo CSV.
+📤 Exportación a CSV: Exporta tus contactos a un archivo CSV para tener un respaldo o compartirlos fácilmente.
 
-Estructura del Proyecto
-El proyecto está organizado en tres paquetes principales:
+🛠 Tecnologías utilizadas
+Java 8+
 
-Controlador: Contiene la clase principal que inicializa la ventana y gestiona los eventos de la interfaz.
+Swing (para la interfaz gráfica)
 
-Modelo: Define las clases persona y personaDAO para gestionar la información de los contactos y la persistencia de datos.
+Patrón de Diseño MVC
 
-Vista: Contiene la interfaz gráfica construida con Swing.
+Archivos CSV para persistencia de datos
 
-Requisitos
+📁 Estructura del Proyecto
+El proyecto está organizado de forma modular en tres paquetes principales:
+
+Controlador: Se encarga de gestionar la lógica de la interfaz y los eventos.
+
+Modelo: Contiene las clases que representan la estructura de los datos (como persona) y la persistencia de los mismos (con personaDAO).
+
+Vista: El paquete donde reside la interfaz gráfica de usuario construida con Swing.
+
+⚙️ Requisitos para ejecutar la aplicación
+Para ejecutar este proyecto, necesitarás tener instalado:
+
 Java 8 o superior
 
 IDE de desarrollo como Eclipse o IntelliJ IDEA.
 
-Instalación
-Clona este repositorio en tu máquina local:
+🚀 Instrucciones de instalación
+Clona el repositorio en tu máquina local:
 
 bash
 Copiar
 Editar
 git clone https://github.com/tu_usuario/gestion-contactos.git
-Abre el proyecto en tu IDE favorito.
+Abre el proyecto en tu IDE favorito, ya sea Eclipse o IntelliJ IDEA.
 
-Ejecuta el archivo Main.java para iniciar la aplicación.
+Ejecuta la clase Main.java para iniciar la aplicación.
 
-Funcionalidades
-Visualizar contactos: Se muestra una lista de contactos en una tabla.
+¡Listo! Ahora puedes empezar a gestionar tus contactos de manera eficiente.
 
-Añadir contactos: Puedes agregar nuevos contactos con los campos nombre, teléfono, email, categoría y favorito.
+🎯 Funcionalidades destacadas
+🧑‍💼 Visualización de Contactos: Todos los contactos aparecen organizados en una tabla para facilitar su gestión.
 
-Editar contactos: Permite modificar la información de un contacto existente.
+✍️ Añadir Contactos: Crea nuevos contactos con nombre, teléfono, email, categoría y marca de favorito.
 
-Eliminar contactos: Puedes eliminar un contacto de la lista.
+✏️ Editar Contactos: Modifica la información de los contactos según sea necesario.
 
-Exportar a CSV: Los contactos se pueden exportar a un archivo CSV para su uso en otras aplicaciones.
+❌ Eliminar Contactos: Borra aquellos contactos que ya no necesites.
 
-Contribuciones
-Si deseas contribuir a este proyecto, por favor sigue estos pasos:
+💾 Exportación a CSV: Exporta todos tus contactos a un archivo CSV para tener un respaldo o compartirlos.
+
+🤝 Contribuciones
+¡Las contribuciones son bienvenidas! Si deseas mejorar la aplicación o añadir nuevas características, sigue estos pasos:
 
 Haz un fork de este repositorio.
 
-Crea una rama para tu nueva funcionalidad: git checkout -b nueva-funcionalidad.
+Crea una nueva rama para tu funcionalidad:
 
-Realiza tus cambios y haz commit: git commit -am 'Añadir nueva funcionalidad'.
+bash
+Copiar
+Editar
+git checkout -b nueva-funcionalidad
+Realiza tus cambios y haz commit:
 
-Empuja tus cambios a tu repositorio: git push origin nueva-funcionalidad.
-
-Abre un pull request.
+bash
+Copiar
+Editar
+git commit -am 'Añadir nueva funcionalidad'
+Envía un pull request para que podamos revisar y fusionar tus cambios.
