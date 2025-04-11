@@ -13,7 +13,7 @@ Además, la aplicación te permite exportar tus contactos a un archivo CSV para 
 - 📤 **Exportación a CSV:** Exporta tus contactos a un archivo CSV para tener un respaldo o compartirlos fácilmente.
 
 ## 🛠 **Tecnologías utilizadas**
-- **Java **
+- **Java**
 - **Swing (para la interfaz gráfica)**
 - **Patrón de Diseño MVC**
 - **Archivos CSV para persistencia de datos**
