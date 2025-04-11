@@ -13,7 +13,7 @@ Además, la aplicación te permite exportar tus contactos a un archivo CSV para 
 - 📤 **Exportación a CSV:** Exporta tus contactos a un archivo CSV para tener un respaldo o compartirlos fácilmente.
 
 ## 🛠 **Tecnologías utilizadas**
-- **Java 8+**
+- **Java **
 - **Swing (para la interfaz gráfica)**
 - **Patrón de Diseño MVC**
 - **Archivos CSV para persistencia de datos**
@@ -28,7 +28,7 @@ El proyecto está organizado de forma modular en tres paquetes principales:
 ## ⚙️ **Requisitos para ejecutar la aplicación**
 Para ejecutar este proyecto, necesitarás tener instalado:
 
-- **Java 8 o superior**
+- **Java**
 - **IDE de desarrollo** como [Eclipse](https://www.eclipse.org/downloads/) o [IntelliJ IDEA](https://www.jetbrains.com/idea/).
 
 ## 🚀 **Instrucciones de instalación**
