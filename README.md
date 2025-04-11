@@ -66,10 +66,6 @@ Para ejecutar este proyecto, necesitarás tener instalado:
    ```
 4. **Envía un pull request** para que podamos revisar y fusionar tus cambios.
 
-## 📜 **Licencia**
-Este proyecto está bajo la **Licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-
----
 
 ✨ **¡Gracias por usar la aplicación de Gestión de Contactos!** ✨
 
